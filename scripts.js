@@ -23,7 +23,8 @@ function calcular() {
   // Hoja de Ruta con espaciado mejorado
   document.getElementById("analisis-metas").innerHTML = `
                 <div class="flex justify-between items-center py-4 border-b border-slate-100">
-                    <span class="text-slate-500 font-medium">Seguridad: Fondo de Paz (12 meses)</span>
+                    <span class="text-slate-500 font-medium">Seguridad: Fondo de Paz</span>
+                    <span class="text-slate-500 font-medium">(12 meses)</span>
                     <span class="font-bold text-slate-900 text-lg">Bs ${anual.toLocaleString(
                       "es-BO"
                     )}</span>
